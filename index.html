@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset"utf-8">
+   <title>ホワイトデーのお返し</title>
+ </head>
+ <body>
+   <h1>ホワイトデーのお返し</h1>
+   <form action="送信先のURL" method="送信形式">
+     <div>
+       <label for="name">名前</label>
+       <input type="text" name="name" id="name">
+     </div>
+     <div>
+       <p>お返し一覧</p>
+        <label for="beauty salon"><input type="radio" name="present" id="beauty salon" value="美容院">美容院</label>
+        <label for="stuffed toy"><input type="radio" name="present" id="stuffed toy" value="ぬいぐるみ">ぬいぐるみ</label>
+        <label for="trip"><input type="radio" name="present" id="trip" value="旅行">旅行</label>
+     </div>
+     <div>
+       <label for="email">メールアドレス</label>
+       <input type="email" name="email" id="email">
+     </div>
+     <div>
+       <label for="present_select">希望のプレゼント</label>
+       <select name="present" id="present_select">
+         <option value="選択してください" selected>選択してください</option>
+         <option value="Aセット">Aセット</option>
+         <option value="Bセット">Bセット</option>
+         <option value="Cセット">Cセット</option>
+       </select>
+     </div>
+     <div>
+      <label for="answer01"><input type="checkbox" id="answer01" value="うしさん頑張れそう">うしさん頑張れそう</label>
+      <label for="answer02"><input type="checkbox" id="answer02" value="プリクラを撮ってくれる">プリクラを撮ってくれる</label>
+      <label for="answer03"><input type="checkbox" id="answer03" value="クッキーを無料で提供してくれる">クッキーを無料で提供してくれる</label>
+     </div>
+     <div>
+       <p>名前</p>
+       <input type="text" name="name" id="name">
+     </div>
+     <div>
+       <p>メールアドレス</p>
+       <input type="mail" name="emal" id="emial">
+     </div>
+     <div>
+       <p>メッセージ</p>
+       <textarea name="messeage"></textarea>
+     </div>
+     <input type="submit" value="送信する"
+    </form>
+ </body>
+</html>
